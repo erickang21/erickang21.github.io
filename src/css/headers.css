@@ -1,0 +1,90 @@
+.hero-section {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    color: rgb(12, 31, 204);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blur-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://media.discordapp.net/attachments/520734295112024064/1200265089287204985/hTcz7l.png?ex=65c58cf9&is=65b317f9&hm=2c11300ec29f962f3643f567ca2d4f62a419a6cf6cf1e8373f1f5ced115c3874&=&format=webp&quality=lossless&width=1126&height=633');
+    background-size: cover;
+    filter: blur(10px);
+  }
+  
+  .content {
+    z-index: 1;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-out;
+    animation-fill-mode: forwards;
+  }
+  
+  h1 {
+    font-size: 3em; /* Adjust the font size as needed */
+    margin: 0; /* Remove default margin to avoid spacing issues */
+  }
+  
+  .subtitle {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 20px;
+  }
+  
+
+  
+  .social-links a:hover {
+    opacity: 0.8;
+  }
+  .social-links a {
+    display: flex;
+    align-items: center; /* Align items vertically in the flex container */
+    margin: 0 15px; /* Adjust the spacing between social links */
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .social-links a img {
+    width: 30px; /* Adjust the width of the social icons as needed */
+    height: auto;
+    margin-right: 10px; /* Adjust the spacing between icon and text */
+  }
+  
+  .social-links a span {
+    font-size: 1em; /* Adjust the font size of the text as needed */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px); /* Move up by 20px initially */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .sections-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px; /* Adjust the margin as needed */
+  }
+  
+
+  
