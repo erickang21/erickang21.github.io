@@ -1,10 +1,7 @@
-# Getting Started with Create React App
+# Eric Kang - Personal Website
+This is my personal website. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+Website is hosted at: https://erickang21.github.io
 
 ### `npm start`
 

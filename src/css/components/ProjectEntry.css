@@ -1,0 +1,38 @@
+.project-title {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.project-title-text {
+    align-self: center;
+    font-size: 36px;
+}
+
+.project-card {
+    background-color: lightblue !important;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+.project-link {
+    font-size: 24px;
+}
+
+.project-icon {
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    .project-title-text {
+        font-size: 24px;
+    }
+    .card-text {
+        font-size: 14px;
+    }
+    .project-link {
+        font-size: 12px;
+    }
+}
