@@ -1,6 +1,20 @@
-.App {
+@font-face {
+  font-family: 'DIN-Bold'; /* You can use any name you prefer */
+  src: url('./fonts/DIN\ Black.ttf') format('truetype'); /* Replace with the actual path to your font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN-Regular'; /* You can use any name you prefer */
+  src: url('./fonts/DIN.ttf') format('truetype'); /* Replace with the actual path to your font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.app {
   text-align: center;
-  height: 100vh;
+  font-family: 'DIN-Bold', sans-serif;
 }
 
 .App-logo {
@@ -36,4 +50,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.components {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  font-family: 'DIN-Regular', sans-serif;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 1200px; /* Optional: Set a max-width for content */
+  margin: 0 auto; /* Optional: Center the content container */
+}
+
+.sections {
+  display: flex;
+  /* Additional styles for your sections, such as spacing, etc. */
+}
+
+.sections-project {
+  display: flex;
+  /* Additional styles for your sections, such as spacing, etc. */
 }

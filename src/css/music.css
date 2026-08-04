@@ -1,0 +1,87 @@
+.music-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 9vw;
+  align-items: center;
+}
+
+.ranking,
+.rankingChange {
+  background-color: #42bcf5; /* Replace 'yourColor' with the desired background color */
+  color: #fff; /* Adjust text color for better visibility */
+  padding: 5px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add rounded corners if desired */
+  display: flex;
+  align-items: center; /* Align content vertically within the element */
+  justify-content: center;
+}
+
+.ranking {
+    margin-top: 30px;
+}
+
+.rankingChange {
+    margin-top: 50px;
+}
+
+.rankings-container {
+  margin-right: 10px; /* Adjust spacing between rankings and spotify embed */
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  flex: 1;
+}
+
+.info h3 {
+  margin: 0;
+}
+
+.spotify-embed {
+  flex: 1;
+  justify-self: center;
+}
+
+.card-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  width: 80%;
+  margin: 10px;
+  border: 1px solid #ccc; /* Add a border with a light gray color */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+.rank-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.rank {
+  font-size: 24px;
+  margin: 0;
+}
+
+.ranking-change {
+  font-size: 16px;
+  margin: 0;
+}
+
+.spotify-embed-container {
+  flex-grow: 1;
+  height: 90%;
+}

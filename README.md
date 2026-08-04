@@ -1,73 +1,70 @@
-<h1 align="center">Hey, I'm Eric! <img src="https://cdn.discordapp.com/emojis/875552439556780083.png?size=240" width="30"/></h1>
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<p align="center">
-  <strong>Founder + Dev for 1.5M • Passionate Full-Stack Dev • 8+ years of experience</strong><br/><br/>
-  <strong>🌐 Visit my website: <a href="https://erickang.dev/">erickang.dev</a></strong><br/>
-</p>
+## Available Scripts
 
----
-## <img alt="wave" src="https://i.ibb.co/4nHx152f/1062929646859063306-1.png" width=28 height=28 valign="middle" /> &nbsp;About Me
-- ✅ **Successful founder and [app dev](https://top.gg/bot/520682706896683009) for [1.5M users](https://i.ibb.co/d4hrrpLD/Screenshot-2025-06-16-at-8-33-13-PM.png)**
-- <img src="https://i.ibb.co/6cLGMSGv/verifieddeveloper.webp" width=20 height=20 valign="middle" /> **VERIFIED Discord bot developer**
-- 🌱 **Owner of mentorship program for 1.2k+ aspiring CS students**
-- 👨‍💼 **4 co-op experiences totaling over 1.5 years, including at [D2L](https://www.d2l.com/) and [Compass Group](https://www.compass-canada.com/)**
-- 🎓 Term 3B Computer Science, AI Specialization @ University of Waterloo
-- 🧠 8+ years of programming experience, passionate about AI
-- 🛠️ Passionate about full-stack apps and Discord bots
+In the project directory, you can run:
 
----
+### `npm start`
 
-## <img alt="briefcase" src="https://i.ibb.co/6dx4vjj/corpa.png" width=28 height=28 valign="middle" /> &nbsp;Notable Projects
-#### [╭₊˚ uwu bot](https://top.gg/bot/520682706896683009) - A crowd favorite anime-themed Discord bot that serves 26k+ servers and 1.4M+ users. ([</> GitHub](https://github.com/erickang21/uwu-bot-v4)) 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-#### [╭₊˚ Transit Guesser](https://transitguesser.me) - GeoGuessr but for public transit, encouraging cleaner ways to travel! ([</> GitHub](https://github.com/erickang21/transit-guesser))
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-#### [╭₊˚ uwu café](https://top.gg/discord/servers/542874442536476673) - A cozy community server for lifelong learning in tech, collaboration on projects, and gamers!
+### `npm test`
 
-#### [╭₊˚ BananAPI](https://github.com/erickang21/bananapi) - Public Node.js REST API for image generation and editing. ([</> GitHub](https://github.com/erickang21/bananapi))
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### [╭₊˚ Personal Website](https://erickang.dev)- A site showcasing projects, tech stack, and some easter eggs if you scroll to the bottom :) ([</> GitHub](https://github.com/erickang21/eric-website-2))
+### `npm run build`
 
----
-## <img alt="card with symbol" src="https://i.ibb.co/XkfLfB2x/943645932904415272.png" width=28 height=28 valign="middle" /> &nbsp;Tech Stack
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Programming Languages
-C++ • C • Python • Java • JavaScript • TypeScript
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Frameworks & Libraries
-React (and React Query, Router) • Node.js • OpenAI API • TypeORM • Docker • Tailwind • Express.js • Flask • Electron • TypeORM
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Cloud & DevOps
-AWS • Cloudflare • Google Cloud • Azure • Oracle Cloud
+### `npm run eject`
 
-### Databases
-MongoDB • Postgres • MySQL • DynamoDB • Oracle
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
----
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## <img alt="vibing to music" src="https://i.ibb.co/JR4FfkfY/1007946413050695731.png" width=28 height=28 valign="middle" /> &nbsp;Interests
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- 🎵 K-pop
-- 🎮 Gaming: [Brawl Stars](https://brawltracker.com/stats/player/C00YUR8), Honkai: Star Rail, Clash of Clans, [Genshin Impact](https://enka.network/u/729198314/)
-- 🚲 Biking
-- 💻 Side projects and full-stack dev
-- 📹 Live streaming + video editing
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
----
+## Learn More
 
-## 🌐 Socials
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn:%20Eric%20Kang-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eric-kang-7052bb121/)
-[![Spotify](https://img.shields.io/badge/Spotify:%20bananaboy2121-1ED760?logo=spotify&logoColor=white)](https://open.spotify.com/user/bananaboy2121)
-[![YouTube](https://img.shields.io/badge/YouTube:%20banana%20bs-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@bananabs)
-[![Twitch](https://img.shields.io/badge/Twitch:%20itzbanana69-9146FF?logo=twitch&logoColor=white)](https://www.twitch.tv/itzbanana69)
-[![Email](https://img.shields.io/badge/Email:%20eric.kang@uwaterloo.ca-D14836?logo=gmail&logoColor=white)](mailto:eric.kang@uwaterloo.ca)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
----
+### Code Splitting
 
-<p align="left">
-<a href="https://github.com/erickang21">
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=erickang21&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-</a>
-</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

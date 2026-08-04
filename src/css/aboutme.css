@@ -1,0 +1,43 @@
+.about-me {
+    width: 100%; /* Adjust the width of each section as needed */
+    padding-left: 20px;
+    border: 2px solid #00ffcc; /* Border color */
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.about-me-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust spacing between title and content */
+}
+
+.about-me-icon {
+  width: 30px; /* Adjust the width of the icon */
+  height: auto; /* Maintain the aspect ratio */
+  margin-left: 10px; /* Adjust spacing between icon and title */
+}
+
+.about-me h2 {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.about-me-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust spacing between lines */
+}
+
+.icon img {
+  width: 30px; /* Adjust the width of the icon image */
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 10px; /* Adjust spacing between icon and text */
+}
+
+.text {
+  font-size: 1em; /* Adjust the text size */
+}
+
