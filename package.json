@@ -60,6 +60,7 @@
     "start-dev": "webpack serve --mode development --open --config webpack.dev.js",
     "build": "npm run build-prod",
     "build-prod": "webpack --config webpack.prod.js --profile --json > stats.json",
+    "build-ci": "webpack --config webpack.prod.js",
     "build-dev": "webpack --config webpack.dev.js --profile --json > stats.json"
   },
   "eslintConfig": {
