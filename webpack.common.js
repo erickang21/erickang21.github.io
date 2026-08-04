@@ -15,15 +15,19 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./public/index.html",
       filename: "./index.html",
-      favicon: "./public/favicon.ico",
     }),
     new DefinePlugin({
       "process.env.REACT_APP_NODE_ENV": JSON.stringify(process.env.REACT_APP_NODE_ENV),
     }),
+    // Copied to the bundle root so the relative URLs in public/index.html
+    // resolve both at the domain root and under a GitHub Pages sub-path.
     new CopyPlugin({
       patterns: [
-        { from: "./public/manifest.json", to: "./public/manifest.json" },
-        { from: "./public/favicon.ico", to: "./public/favicon.ico" },
+        { from: "./public/manifest.json", to: "./manifest.json" },
+        { from: "./public/favicon.ico", to: "./favicon.ico" },
+        { from: "./public/logo192.png", to: "./logo192.png" },
+        { from: "./public/logo512.png", to: "./logo512.png" },
+        { from: "./public/robots.txt", to: "./robots.txt" },
       ],
     }),
     new MiniCssExtractPlugin(),
