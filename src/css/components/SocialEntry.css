@@ -1,0 +1,10 @@
+.social-entry {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+a {
+    font-family: 'JetBrains Mono', monospace;
+}

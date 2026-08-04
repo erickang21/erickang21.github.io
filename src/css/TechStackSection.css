@@ -1,0 +1,57 @@
+.tech-stack-section {
+    align-self: center;
+    gap: 8px;
+    align-items: center;
+    padding: 8px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.tech-stack-category {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.section-title {
+    font-size: 48px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #00ff00;
+}
+
+.tech-stack-list-of-items {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+.card {
+    align-items: center;
+    background-color: lightblue !important;
+}
+
+.card-title {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+@media (max-width: 768px) {
+    .tech-stack-section {
+        max-width: 100vw;
+    }
+
+    .card-title {
+        font-size: 16px !important;
+    }
+
+    .section-title {
+        font-size: 36px;
+    }
+
+    .card-body {
+        padding: 4px !important; /* override BootStrap styles */
+    }
+}
